@@ -60,10 +60,10 @@
                             <a href="<?= base_url(); ?>"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="<?= base_url(); ?>/records"><i class="fas fa-chart-bar"></i>Records</a>
+                            <a href="<?= base_url('records'); ?>"><i class="fas fa-chart-bar"></i>Records</a>
                         </li>
                         <li class="active">
-                            <a href="<?= base_url(); ?>/records/add"><i class="fas fa-plus-square"></i>Add Records</a>
+                            <a href="<?= base_url('records/add'); ?>"><i class="fas fa-plus-square"></i>Add Records</a>
                         </li>
                     </ul>
                 </div>
@@ -85,10 +85,10 @@
                             <a href="<?= base_url(); ?>/"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="<?= base_url(); ?>/records"><i class="fas fa-chart-bar"></i>Records</a>
+                            <a href="<?= base_url('records'); ?>"><i class="fas fa-chart-bar"></i>Records</a>
                         </li>
                         <li class="active">
-                            <a href="<?= base_url(); ?>/records/add"><i class="fas fa-plus-square"></i>Add Records</a>
+                            <a href="<?= base_url('records/add'); ?>"><i class="fas fa-plus-square"></i>Add Records</a>
                         </li>
                     </ul>
                 </nav>
