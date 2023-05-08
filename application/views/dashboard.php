@@ -42,7 +42,7 @@
             <div class="header-mobile__bar">
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="<?= base_url(); ?>">
                             <img src="<?php echo base_url(); ?>assets/images/icon/logo.png" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
@@ -56,14 +56,14 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a href="<?= base_url(); ?>"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="<?= base_url(); ?>/records"><i class="fas fa-chart-bar"></i>Records</a>
+                        </li>
                         <li class="active">
-                            <a href="/"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="records"><i class="fas fa-chart-bar"></i>Records</a>
-                        </li>
-                        <li>
-                            <a href="records/add"><i class="fas fa-plus-square"></i>Add Records</a>
+                            <a href="<?= base_url(); ?>/records/add"><i class="fas fa-plus-square"></i>Add Records</a>
                         </li>
                     </ul>
                 </div>
@@ -81,14 +81,14 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
+                        <li>
+                            <a href="<?= base_url(); ?>/"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="<?= base_url(); ?>/records"><i class="fas fa-chart-bar"></i>Records</a>
+                        </li>
                         <li class="active">
-                            <a href="/"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="records"><i class="fas fa-chart-bar"></i>Records</a>
-                        </li>
-                        <li>
-                            <a href="records/add"><i class="fas fa-plus-square"></i>Add Records</a>
+                            <a href="<?= base_url(); ?>/records/add"><i class="fas fa-plus-square"></i>Add Records</a>
                         </li>
                     </ul>
                 </nav>
