@@ -36,7 +36,7 @@ $config['base_url'] = 'http://34.101.173.252/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
